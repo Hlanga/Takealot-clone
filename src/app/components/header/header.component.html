@@ -23,6 +23,8 @@
                 </a>
                 <ul fxLayout="column" fxLayoutAlign="center start">
                     <li><a routerLink="/account">My Account</a></li>
+                    <li><a routerLink="/products">View Product Store</a></li>
+                    <li><a routerLink="/products/0/edit">Add Product to store</a></li>
                     <li><a href="#">Track Order</a></li>
                     <li><a routerLink="/login">Log return</a></li>
                     <li><a href="#">Invoice</a></li>
@@ -52,11 +54,11 @@
                     </mat-chip>
                 </mat-chip-list>
                 <div #cart class="menu-cart">
-                    cart item here
-                  
+                
+                  <app-cart></app-cart>
                     <mat-divider></mat-divider>
                     <div fxLayoutAlign="end">
-                        <!-- <h3><strong>Total: R 10</strong></h3> -->
+                       
                     </div>
                    
                     <mat-divider></mat-divider>

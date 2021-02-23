@@ -11,6 +11,9 @@ export class CartComponent implements OnInit {
 
    cartItems: any[];
    totalAmmount: number;
+   imageWidth=100;
+   imageMargin=3;
+   
 
   constructor(
     private cartService: CartService
